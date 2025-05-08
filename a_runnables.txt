@@ -1,0 +1,9 @@
+A Runnable in LangChain is any step in an LLM pipeline that can be called and composed. It makes it easy to build modular, reusable AI workflows. Prompts, LLMs, chains, and retrievers are all Runnables.
+Basically when we have multiple chains in our code and want to connect those chains together for making our code more short and concise then we use runnables.We just invoke a runnable and it process all the chains in it in defined sequence and gives us desired output.
+
+In langchain there are two types of runnables.One is Task Specific Runnable and other is Runnable Primitives
+
+Task Specific Runnable :- These are core Langchain components that have been converted into runnables so they can be used in pipeliness.For example PromptTemplate,ChatOpenAI etc.Basically these are the single components of langchain we oftenly use in our code.Like parsers,templates,llms etc.
+
+Runnable Primitives :- These are fundamental building blocks for structuring execution logic in AI workflows.We use them for combining Task Specific Runnables together in a logical way so that we don't need to call each Task Specific Runnable individually we just combine them with the help of Runnable Premitives.
+Some examples of Runnable Primitives include RunnableSequence,RunnableParallel,RunnableMap etc.
