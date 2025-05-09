@@ -1,0 +1,24 @@
+In LangChain, a Document Loader is a component that loads data from various sources (like files, URLs, databases, APIs) and converts it into a format that LangChain can work with—specifically, a list of Document objects.
+Each Document in LangChain is a simple structure:
+    Document(
+    page_content="This is the actual text from the source",
+    metadata={"source": "filename.txt", "page": 1}
+    )
+
+📦 Common Use Cases of Document Loaders:
+    i-Load a PDF, Word, or Markdown file.
+
+    ii-Load data from a URL or web page.
+
+    iii-Load from Notion, Slack, Google Drive, etc.
+
+🔁 Why it's important for RAG:
+Before you can store data in a vector store and use it for retrieval, you must:
+
+    i-Load the data (using document loaders).
+
+    ii-Split the data (using text splitters).
+
+    iii-Embed and store the data in a vector database.
+
+There are multiple types of loaders and some main of them are explained here.

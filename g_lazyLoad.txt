@@ -1,0 +1,7 @@
+Load is a bit slow method.If we want to load hundereds of all then it will take a lot of time to loading them in memory.And also loading a lot of files at same time can make our memory down.
+So to overcome this problems lazyLoad funtion is introduced in langchain.
+And the difference between load and lazy load is given in the picture
+
+for using it we just have to replce the load word with lazy_load
+
+It does not load all the files immediately like load method.It loads each file when needed.
