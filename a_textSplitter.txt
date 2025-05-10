@@ -1,0 +1,7 @@
+Text splitting is the process of breaking large chunks of text(like articles,PDFs,HTML pages or books etc) into smaller , manageable pieces(shunks) that an LLM can handle effectively.
+Basically for implementing RAG in our application we need to load data from somewhere , and then this data is splitted into chunks so that we can make vectors of data for storing it into a vector database from where our llm will generate response based on query.
+So for making vectors of data we need to split data into chunks.And this concept of splitting data is known as Text Splitting.
+
+We can also make vecotrs of large data but if we make chunks of data and then apply embedding(changing into vecotrs) on this text then our model gets semantic meaning of this short data very effeiciently.So we do this.
+
+There are many ways of applying text splitting.We can apply splitting on the bases of length of text,structure of text,Semantic meaning of text etc.
