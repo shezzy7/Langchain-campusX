@@ -1,6 +1,9 @@
 langchain
 chromadb
+faiss-cpu
 tiktoken
-pypdf
 langchain-community
-langchain_huggingface
+wikipedia
+langchain-google-genai
+langchain-huggingface
+langchian-generativeai

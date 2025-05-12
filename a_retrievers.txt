@@ -1,0 +1,7 @@
+A retriever is a component in langchain that fetches relevant documents from a data source in response to a user's query.
+There are multiple types of retrievers
+And all retrievers in langchain are runnables.
+
+Basically works such that we send a query to the retriever and retriver has access to a data source , it goes there and finds the data from that particular source which is relevant to given query and generates a response from that data and returns the response.
+
+There are multiple types of retrievers in langchain.They are catagorized on two basis.Some are catogrized according to data source mean on which kind of data they have to work.Other catagory is based on search strategy of retrievers.
